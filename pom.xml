@@ -25,11 +25,11 @@
           <groupId>org.apache.maven.plugins</groupId>
          <artifactId>maven-war-plugin</artifactId>
  <configuration>
-         <outputDirectory>/opt/test</outputDirectory>
+         <outputDirectory>/opt/test1</outputDirectory>
   </configuration>
   </plugin>
   </plugins>
-  <finalName>WebProject</finalName>
+  <finalName>WebProject updated</finalName>
   </build>
 
 </project>
