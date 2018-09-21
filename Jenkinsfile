@@ -10,7 +10,7 @@ pipeline {
       parallel {
         stage('test') {
           steps {
-            build(job: 'new-date', quietPeriod: 1)
+            build(job: 'myProject', quietPeriod: 1)
           }
         }
         stage('build') {
